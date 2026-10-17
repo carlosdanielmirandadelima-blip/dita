@@ -1,0 +1,18 @@
+{
+  "name": "Dita — Ditado por Voz com Whisper Local",
+  "short_name": "Dita",
+  "description": "Ditado por voz no Linux com Whisper local. Nenhum áudio sai do seu computador.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b100d",
+  "theme_color": "#0b100d",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

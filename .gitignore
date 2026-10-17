@@ -1,0 +1,24 @@
+# dependências
+node_modules/
+
+# O dist/ é versionado de propósito: o instalador não exige toolchain de front
+
+# modelo do Whisper (centenas de MB — baixado pelo instalador)
+models/
+*.bin
+
+# whisper.cpp compilado localmente
+whisper.cpp/
+
+# configuração e credenciais
+.env
+.env.*
+!.env.example
+*.env
+azure.env
+
+# temporários
+*.log
+*.wav
+*.raw
+/tmp/
